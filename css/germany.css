@@ -1,0 +1,10 @@
+#germany
+{
+    background-image: -webkit-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: -o-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: -moz-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    width: 250px;
+    height: 133px;
+    margin: 0 auto;
+}
