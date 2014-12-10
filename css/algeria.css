@@ -1,0 +1,100 @@
+#algeria
+{
+    position: relative;
+    background-image: -webkit-linear-gradient(90deg, #006233 50%, #ffffff 50%);
+    background-image: -o-linear-gradient(90deg, #006233 50%, #ffffff 50%);
+    background-image: -moz-linear-gradient(90deg, #006233 50%, #ffffff 50%);
+    background-image: linear-gradient(90deg, #006233 50%, #ffffff 50%);
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#algeria .middle
+{
+    display: block;
+    width: 75px;
+    top: 37px;
+    left: 75px;
+    height: 75px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+#algeria .moon
+{
+    display: block;
+    width: 75px;
+    top: 0px;
+    left: 0px;
+    height: 75px;
+    background: #e70013;
+    border-radius: 50%;
+}
+
+#algeria .moon-clip
+{
+    display: block;
+    width: 59px;
+    top: 8px;
+    left: 17px;
+    height: 59px;
+    background-image: -webkit-linear-gradient(90deg, #006233 35%, #ffffff 35%);
+    background-image: -o-linear-gradient(90deg, #006233 35%, #ffffff 35%);
+    background-image: -moz-linear-gradient(90deg, #006233 35%, #ffffff 35%);
+    background-image: linear-gradient(90deg, #006233 35%, #ffffff 35%);
+    border-radius: 50%;
+}
+
+#algeria .star {
+    margin: 25px 0;
+    position: absolute;
+    top: -5px;
+    left: 4px;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #d21034;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(65deg) scale(0.35, 0.35);
+    -webkit-transform: rotate(55deg) scale(0.35, 0.35);
+    -ms-transform: rotate(65deg) scale(0.35, 0.35);
+    -o-transform: rotate(65deg) scale(0.35, 0.35);
+}
+
+#algeria .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    left: -32.5px;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #d21034;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#algeria .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    color: red;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #d21034;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}

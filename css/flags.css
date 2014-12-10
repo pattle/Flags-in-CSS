@@ -1,0 +1,6 @@
+.flag *
+{
+    position: absolute;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}

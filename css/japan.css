@@ -1,0 +1,22 @@
+#japan
+{
+    position: relative;
+    background: #ffffff;
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+    border: 1px solid #dddddd;
+}
+
+#japan .middle
+{
+    display: block;
+    width: 91px;
+    top: 29px;
+    left: 67px;
+    height: 91px;
+    background: #bc002d;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}

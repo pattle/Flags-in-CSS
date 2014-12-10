@@ -1,0 +1,21 @@
+#bangladesh
+{
+    position: relative;
+    background: #006a4e;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#bangladesh .middle
+{
+    display: block;
+    width: 100px;
+    top: 25px;
+    left: 62px;
+    height: 100px;
+    background: #f42a41;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
