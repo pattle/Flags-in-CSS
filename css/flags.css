@@ -887,6 +887,39 @@
     margin: 0 auto;
 }
 
+#gabon
+{
+    background-image: -webkit-linear-gradient(#009e60 33%, #fcd116 33%, #fcd116 66%, #3a75c4 66%);
+    background-image: -o-linear-gradient(#009e60 33%, #fcd116 33%, #fcd116 66%, #3a75c4 66%);
+    background-image: -moz-linear-gradient(#009e60 33%, #fcd116 33%, #fcd116 66%, #3a75c4 66%);
+    background-image: linear-gradient(#009e60 33%, #fcd116 33%, #fcd116 66%, #3a75c4 66%);
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#gambia
+{
+    background-image: -webkit-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
+    background-image: -o-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
+    background-image: -moz-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
+    background-image: linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
+    width: 200px;
+    height: 133px;
+    margin: 0 auto;
+}
+
+#germany
+{
+    background-image: -webkit-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: -o-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: -moz-linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    background-image: linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
+    width: 250px;
+    height: 133px;
+    margin: 0 auto;
+}
+
 #iceland
 {
     position: relative;
