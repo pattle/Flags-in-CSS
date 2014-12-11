@@ -1,0 +1,10 @@
+#belgium
+{
+    background-image: -webkit-linear-gradient(90deg, #000000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
+    background-image: -o-linear-gradient(90deg, #000000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
+    background-image: -moz-linear-gradient(90deg, #000000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
+    background-image: linear-gradient(90deg, #000000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
+    width: 173px;
+    height: 150px;
+    margin: 0 auto;
+}

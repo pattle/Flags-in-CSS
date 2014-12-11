@@ -1,0 +1,124 @@
+#kenya
+{
+    position: relative;
+    background-image: -webkit-linear-gradient(#000000 30%, #ffffff 30%, #ffffff 35%, #bb0000 35%, #bb0000 61%, #ffffff 61%, #ffffff 66%, #006600 66%);
+    background-image: -o-linear-gradient(#000000 30%, #ffffff 30%, #ffffff 35%, #bb0000 35%, #bb0000 61%, #ffffff 61%, #ffffff 66%, #006600 66%);
+    background-image: -moz-linear-gradient(#000000 30%, #ffffff 30%, #ffffff 35%, #bb0000 35%, #bb0000 61%, #ffffff 61%, #ffffff 66%, #006600 66%);
+    background-image: linear-gradient(#000000 30%, #ffffff 30%, #ffffff 35%, #bb0000 35%, #bb0000 61%, #ffffff 61%, #ffffff 66%, #006600 66%);
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#kenya .spear-left
+{
+    top: 37px;
+    left: 108px;
+    width: 2px;
+    height: 89px;
+    background: #ffffff;
+    -webkit-transform: rotate(30deg);
+}
+
+#kenya .spear-left:after
+{
+    content: " ";
+    top: -22px;
+    left: -2px;
+    width: 6px;
+    height: 23px;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 50% 50% 40% 40% / 50% 50% 20% 20%;
+}
+
+#kenya .spear-right
+{
+    top: 37px;
+    left: 115px;
+    width: 2px;
+    height: 89px;
+    background: #ffffff;
+    -webkit-transform: rotate(-30deg);
+}
+
+#kenya .spear-right:after
+{
+    content: " ";
+    top: -22px;
+    left: -2px;
+    width: 6px;
+    height: 23px;
+    background: #ffffff;
+    position: absolute;
+    border-radius: 50% 50% 40% 40% / 50% 50% 20% 20%;
+}
+
+#kenya .shield
+{
+    top: 31px;
+    left: 90px;
+    width: 45px;
+    height: 89px;
+    background: #bb0000;
+    border-radius: 50%;
+}
+
+#kenya .shield-left
+{
+    top: 23px;
+    left: 0px;
+    width: 9px;
+    height: 41px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+#kenya .shield-right
+{
+    top: 23px;
+    right: 0px;
+    width: 9px;
+    height: 41px;
+    background: #000000;
+    border-radius: 50%;
+}
+
+#kenya .shield-top
+{
+    top: 0px;
+    left: 18px;
+    width: 9px;
+    height: 39px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+#kenya .shield-bottom
+{
+    bottom: 0px;
+    left: 18px;
+    width: 9px;
+    height: 39px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+#kenya .shield-line
+{
+    top: 0px;
+    left: 22px;
+    width: 1px;
+    height: 89px;
+    background: #bb0000;
+}
+
+#kenya .shield-middle
+{
+    top: 39px;
+    left: 19px;
+    width: 7px;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 50%;
+}

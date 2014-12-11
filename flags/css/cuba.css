@@ -1,0 +1,71 @@
+#cuba
+{
+    position: relative;
+    background-image: -webkit-linear-gradient(#002a8f 20%, #ffffff 20%, #ffffff 40%, #002a8f 40%, #002a8f 60%, #ffffff 60%, #ffffff 80%, #002a8f 80%);
+    background-image: -o-linear-gradient(#002a8f 20%, #ffffff 20%, #ffffff 40%, #002a8f 40%, #002a8f 60%, #ffffff 60%, #ffffff 80%, #002a8f 80%);
+    background-image: -moz-linear-gradient(#002a8f 20%, #ffffff 20%, #ffffff 40%, #002a8f 40%, #002a8f 60%, #ffffff 60%, #ffffff 80%, #002a8f 80%);
+    background-image: linear-gradient(#002a8f 20%, #ffffff 20%, #ffffff 40%, #002a8f 40%, #002a8f 60%, #ffffff 60%, #ffffff 80%, #002a8f 80%);
+    width: 300px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#cuba .triangle
+{
+    top: 0px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-bottom: 75px solid transparent;
+    border-left: 130px solid #cf142b;
+}
+
+#cuba .star {
+    display: block;
+    top: 57px;
+    left: -6px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffffff;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(35deg) scale(0.42, 0.42);
+    -webkit-transform: rotate(35deg) scale(0.42, 0.42);
+    -ms-transform: rotate(35deg) scale(0.42, 0.42);
+    -o-transform: rotate(35deg) scale(0.42, 0.42);
+}
+
+#cuba .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    left: -32.5px;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #ffffff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#cuba .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffffff;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}

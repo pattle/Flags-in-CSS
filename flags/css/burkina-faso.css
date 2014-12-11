@@ -1,0 +1,61 @@
+#burkina-faso
+{
+    position: relative;
+    background-image: -webkit-linear-gradient(#ef2b2d 50%, #009e49 50%);
+    background-image: -o-linear-gradient(#ef2b2d 50%, #009e49 50%);
+    background-image: -moz-linear-gradient(#ef2b2d 50%, #009e49 50%);
+    background-image: linear-gradient(#ef2b2d 50%, #009e49 50%);
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#burkina-faso .star {
+    display: block;
+    position: absolute;
+    top: 57px;
+    left: 63px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #fcd116;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(35deg) scale(0.46, 0.46);
+    -webkit-transform: rotate(35deg) scale(0.46, 0.46);
+    -ms-transform: rotate(35deg) scale(0.46, 0.46);
+    -o-transform: rotate(35deg) scale(0.46, 0.46);
+}
+
+#burkina-faso .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    left: -32.5px;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #fcd116;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#burkina-faso .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #fcd116;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}

@@ -1,0 +1,10 @@
+#botswana
+{
+    background-image: -webkit-linear-gradient(#75aadb 37%, #ffffff 37%, #ffffff 41%, #000000 41%, #000000 59%, #ffffff 59%, #ffffff 63%, #75aadb 63%);
+    background-image: -o-linear-gradient(#75aadb 37%, #ffffff 37%, #ffffff 41%, #000000 41%, #000000 59%, #ffffff 59%, #ffffff 63%, #75aadb 63%);
+    background-image: -moz-linear-gradient(#75aadb 37%, #ffffff 37%, #ffffff 41%, #000000 41%, #000000 59%, #ffffff 59%, #ffffff 63%, #75aadb 63%);
+    background-image: linear-gradient(#75aadb 37%, #ffffff 37%, #ffffff 41%, #000000 41%, #000000 59%, #ffffff 59%, #ffffff 63%, #75aadb 63%);
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
