@@ -814,6 +814,91 @@
     -o-transform: rotate(-70deg);
 }
 
+#czech-republic
+{
+    background-image: linear-gradient(35deg, #11457e 50%, transparent 50%), linear-gradient(-35deg, transparent 50%, #11457e 50%), linear-gradient(#ffffff 50%, #d7141a 50%);
+    background-size: 110px 75px, 110px 75px, 225px 150px;
+    background-position: 0 0, 0 75px, 0 0;
+    background-repeat: no-repeat, no-repeat, repeat;
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#djbouti
+{
+    position: relative;
+    background-image: linear-gradient(30deg, #ffffff 50%, transparent 50%), linear-gradient(-30deg, transparent 50%, #ffffff 50%), linear-gradient(#6ab2e7 50%, #12ad2b 50%);
+    background-size: 130px 75px, 130px 75px, 225px 150px;
+    background-position: 0 0, 0 75px, 0 0;
+    background-repeat: no-repeat, no-repeat, repeat;
+    width: 225px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+#djbouti .star {
+    display: block;
+    top: 59px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #d7141a;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(35deg) scale(0.38, 0.38);
+    -webkit-transform: rotate(35deg) scale(0.38, 0.38);
+    -ms-transform: rotate(35deg) scale(0.38, 0.38);
+    -o-transform: rotate(35deg) scale(0.38, 0.38);
+}
+
+#djbouti .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    left: -32.5px;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #d7141a;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#djbouti .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #d7141a;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}
+
+#dominican-republic
+{
+    position: relative;
+    background-color: #002d62;
+    background-image: linear-gradient(#ffffff 30px, transparent 30px), linear-gradient(90deg, #ffffff 30px, transparent 30px), linear-gradient(90deg, #ce1126 111px, transparent 111px), linear-gradient(90deg, transparent 111px, #ce1126 111px);
+    background-size: 250px 93px, 140px 156px, 250px 63px, 250px 63px;
+    background-position: 0 -30px, -30px 0, 0 93px, 0 0;
+    background-repeat: repeat, repeat, no-repeat, no-repeat;
+    width: 250px;
+    height: 156px;
+    margin: 0 auto;
+}
+
 #drc
 {
     position: relative;
