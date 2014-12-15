@@ -1,3 +1,7 @@
+.flag {
+    margin: 0 auto;
+}
+
 .flag *
 {
     position: absolute;
@@ -14,7 +18,6 @@
     background-image: linear-gradient(90deg, #006233 50%, #ffffff 50%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #algeria .middle
@@ -114,7 +117,6 @@
     background-image: linear-gradient(#d90012 33%, #0033a0 33%, #0033a0 66%, #f2a800 66%);
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #austria
@@ -125,7 +127,6 @@
     background-image: linear-gradient(#ed2939 33%, #ffffff 33%, #ffffff 66%, #ed2939 66%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #azerbaijan
@@ -137,7 +138,6 @@
     background-image: linear-gradient(#0098c3 33%, #e00034 33%, #e00034 66%, #00ae65 66%);
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #azerbaijan .moon
@@ -240,7 +240,6 @@
     background-image: linear-gradient(#00abc9 33%, #fae042 33%, #fae042 66%, #00abc9 66%);
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #bahamas .triangle
@@ -260,7 +259,6 @@
     background: #006a4e;
     width: 250px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #bangladesh .middle
@@ -284,7 +282,6 @@
     background-image: linear-gradient(90deg, #000000 33%, #fae042 33%, #fae042 66%, #ed2939 66%);
     width: 173px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #benin
@@ -295,7 +292,6 @@
     background-image: linear-gradient(90deg, #008751 40%, transparent 40%), linear-gradient(#fcd116 50%, #e8112d 50%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #botswana
@@ -306,7 +302,6 @@
     background-image: linear-gradient(#75aadb 37%, #ffffff 37%, #ffffff 41%, #000000 41%, #000000 59%, #ffffff 59%, #ffffff 63%, #75aadb 63%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #bulgaria
@@ -317,7 +312,6 @@
     background-image: linear-gradient(#ffffff 33%, #00966e 33%, #00966e 66%, #d62612 66%);
     width: 250px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #burkina-faso
@@ -329,7 +323,6 @@
     background-image: linear-gradient(#ef2b2d 50%, #009e49 50%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #burkina-faso .star {
@@ -391,7 +384,6 @@
     background-image: linear-gradient(90deg, #007a5e 33%, #ce1126 33%, #ce1126 66%, #fcd116 66%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #cameroon .star {
@@ -452,7 +444,6 @@
     background-image: linear-gradient(90deg, #002664 33%, #fecb00 33%, #fecb00 66%, #c60c30 66%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #chile
@@ -466,7 +457,6 @@
     background-repeat: no-repeat, no-repeat;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #chile .star {
@@ -525,7 +515,6 @@
     background: #de2910;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #china .star {
@@ -631,7 +620,6 @@
     background-image: linear-gradient(#fcd116 50%, #003893 50%, #003893 75%, #ce1126 75%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #comoros
@@ -643,7 +631,6 @@
     background-image: linear-gradient(#ffc61e 25%, #ffffff 25%, #ffffff 50%, #ce1126 50%, #ce1126 75%, #3a75c4 75%);
     width: 208px;
     height: 125px;
-    margin: 0 auto;
 }
 
 #comoros .triangle
@@ -751,7 +738,6 @@
     background-image: linear-gradient(#002a8f 20%, #ffffff 20%, #ffffff 40%, #002a8f 40%, #002a8f 60%, #ffffff 60%, #ffffff 80%, #002a8f 80%);
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #cuba .triangle
@@ -822,7 +808,6 @@
     background-repeat: no-repeat, no-repeat, repeat;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #djbouti
@@ -834,7 +819,6 @@
     background-repeat: no-repeat, no-repeat, repeat;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #djbouti .star {
@@ -896,7 +880,6 @@
     background-repeat: repeat, repeat, no-repeat, no-repeat;
     width: 250px;
     height: 156px;
-    margin: 0 auto;
 }
 
 #drc
@@ -908,7 +891,6 @@
     background-image: linear-gradient(-30deg, #007fff 41%, #f7d618 41%, #f7d618 44%, #ce1021 44%, #ce1021 56%, #f7d618 56%, #f7d618 59%, #007fff 59%);
     width: 200px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #drc .star {
@@ -961,6 +943,86 @@
     -o-transform: rotate(-70deg);
 }
 
+#east-timor
+{
+    position: relative;
+    background-color: #dc241f;
+    background-image: linear-gradient(37deg, #000000 50%, transparent 50%), linear-gradient(-37deg, transparent 50%, #000000 50%), linear-gradient(27deg, #ffc726 50%, transparent 50%), linear-gradient(-27deg, transparent 50%, #ffc726 50%);
+    background-size: 100px 75px, 100px 75px, 150px 75px, 150px 75px;
+    background-position: 0 0, 0 75px, 0 0, 0 75px;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    width: 300px;
+    height: 150px;
+}
+
+#east-timor .star {
+    display: block;
+    top: 56px;
+    left: -12px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffffff;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(8deg) scale(0.48, 0.48);
+    -webkit-transform: rotate(8deg) scale(0.48, 0.48);
+    -ms-transform: rotate(8deg) scale(0.48, 0.48);
+    -o-transform: rotate(8deg) scale(0.48, 0.48);
+}
+
+#east-timor .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -22.5px;
+    left: -32.5px;
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid #ffffff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#east-timor .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffffff;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+}
+
+#estonia
+{
+    background-image: -webkit-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
+    background-image: -o-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
+    background-image: -moz-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
+    background-image: linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
+    width: 236px;
+    height: 150px;
+}
+
+#finland {
+    background-color: #ffffff;
+    background-image: linear-gradient(transparent 54px, #003580 54px), linear-gradient(90deg, transparent 68px, #003580 68px);
+    background-size: 246px 96px, 110px 150px;
+    background-repeat: no-repeat;
+    width: 246px;
+    height: 150px;
+}
+
 #france
 {
     background-image: -webkit-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
@@ -969,7 +1031,6 @@
     background-image: linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #gabon
@@ -980,7 +1041,6 @@
     background-image: linear-gradient(#009e60 33%, #fcd116 33%, #fcd116 66%, #3a75c4 66%);
     width: 200px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #gambia
@@ -991,7 +1051,6 @@
     background-image: linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
     width: 200px;
     height: 133px;
-    margin: 0 auto;
 }
 
 #germany
@@ -1002,7 +1061,6 @@
     background-image: linear-gradient(#000000 33%, #dd0000 33%, #dd0000 66%, #ffce00 66%);
     width: 250px;
     height: 133px;
-    margin: 0 auto;
 }
 
 #iceland
@@ -1017,7 +1075,6 @@
     background-position: -24px -24px, -77px -24px, -32px -32px, -107px -32px;
     width: 209px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #ireland
@@ -1029,7 +1086,6 @@
     background-image: linear-gradient(90deg, #009A49 33%, #ffffff 33%, #ffffff 66%, #FF7900 66%);
     width: 250px;
     height: 125px;
-    margin: 0 auto;
 }
 
 #japan
@@ -1038,7 +1094,6 @@
     background: #ffffff;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
     border: 1px solid #dddddd;
 }
 
@@ -1064,7 +1119,6 @@
     background-image: linear-gradient(#000000 30%, #ffffff 30%, #ffffff 35%, #bb0000 35%, #bb0000 61%, #ffffff 61%, #ffffff 66%, #006600 66%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #kenya .spear-left
@@ -1192,7 +1246,7 @@
     background-position: -24px -24px, -77px -24px, -32px -32px, -107px -32px;
     width: 209px;
     height: 150px;
-    margin: 0 auto;
+    
 }
 
 #republic-of-the-congo
@@ -1203,7 +1257,6 @@
     background-image: linear-gradient(135deg, #009543 40%, #fbde4a 40%, #fbde4a 60%, #dc241f 57%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #rwanda
@@ -1215,7 +1268,6 @@
     background-image: linear-gradient(#00a1de 40%, #00a1de 56%, #fad201 56%, #fad201 80%, #20603d 80%);
     width: 250px;
     height: 167px;
-    margin: 0 auto;
 }
 
 #rwanda .star
@@ -1479,7 +1531,6 @@
     background-image: linear-gradient(147deg, #1eb53a 39%, #fcd116 39%, #fcd116 43%, #000000 43%, #000000 57%, #fcd116 57%, #fcd116 61%, #00a3dd 61%);
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #tunisia
@@ -1488,7 +1539,6 @@
     background: #e70013;
     width: 225px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #tunisia .middle
@@ -1539,7 +1589,6 @@
     background-repeat: repeat, repeat, repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
 
 #usa
@@ -1553,7 +1602,6 @@
     background-repeat: no-repeat, repeat-y;
     width: 300px;
     height: 158px;
-    margin: 0 auto;
 }
 
 #usa .star {
