@@ -1,6 +1,5 @@
 #iceland
 {
-    position: relative;
     background-color: #003897;
     background-image: -webkit-linear-gradient(#d72828 16px, transparent 16px), linear-gradient(90deg, #d72828 16px, transparent 16px), linear-gradient(white 32px, transparent 32px), linear-gradient(90deg, white 32px, transparent 32px);
     background-image: -o-linear-gradient(#d72828 16px, transparent 16px), linear-gradient(90deg, #d72828 16px, transparent 16px), linear-gradient(white 32px, transparent 32px), linear-gradient(90deg, white 32px, transparent 32px);
@@ -10,5 +9,4 @@
     background-position: -24px -24px, -77px -24px, -32px -32px, -107px -32px;
     width: 209px;
     height: 150px;
-    margin: 0 auto;
 }

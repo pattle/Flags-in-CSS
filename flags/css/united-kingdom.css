@@ -1,6 +1,5 @@
 #united-kingdom
 {
-    position: relative;
     background-color: #00247d;
     background-image: linear-gradient(#cf142b 30px, transparent 30px), linear-gradient(90deg, #cf142b 30px, transparent 30px), 
 	linear-gradient(#ffffff 50px, transparent 50px), linear-gradient(90deg, #ffffff 50px, transparent 50px), 
@@ -13,5 +12,4 @@
     background-repeat: repeat, repeat, repeat, repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     width: 300px;
     height: 150px;
-    margin: 0 auto;
 }
