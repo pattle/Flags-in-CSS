@@ -1,0 +1,9 @@
+#romania
+{
+    background-image: -webkit-linear-gradient(90deg, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 66%);
+    background-image: -o-linear-gradient(90deg, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 66%);
+    background-image: -moz-linear-gradient(90deg, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 66%);
+    background-image: linear-gradient(90deg, #002B7F 33%, #FCD116 33%, #FCD116 66%, #CE1126 66%);
+    width: 225px;
+    height: 150px;
+}
