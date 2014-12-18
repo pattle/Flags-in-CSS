@@ -1,0 +1,56 @@
+#vietnam {
+	position: relative;
+    background-color: #da251d;
+    width: 225px;
+    height: 150px;
+}
+
+#vietnam .star {
+    display: block;
+    position: absolute;
+    top: 56px;
+	left: 64px;
+	width: 0px;
+	height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffff00;
+    border-left: 50px solid transparent;
+    -moz-transform: rotate(36deg) scale(0.9, 0.9);
+    -webkit-transform: rotate(36deg) scale(0.9, 0.9);
+    -ms-transform: rotate(36deg) scale(0.9, 0.9);
+    -o-transform: rotate(36deg) scale(0.9, 0.9);
+}
+
+#vietnam .star:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -23.5px;
+	left: -32.5px;
+	height: 0;
+	width: 0;
+    border-bottom: 40px solid #ffff00;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+}
+
+#vietnam .star:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 3px;
+	left: -52.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-bottom: 35px solid #ffff00;
+    border-left: 50px solid transparent;
+    -webkit-transform: rotate(-72deg);
+    -moz-transform: rotate(-72deg);
+    -ms-transform: rotate(-72deg);
+    -o-transform: rotate(-72deg);
+}
