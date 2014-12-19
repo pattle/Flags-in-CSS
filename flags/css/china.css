@@ -86,17 +86,17 @@
 #china .star-sub3 {
     top: 35px;
     left: 40px;
-    -moz-transform: rotate(33deg) scale(0.45, 0.45);
+    -moz-transform: rotate(33deg) scale(0.12, 0.12);
     -webkit-transform: rotate(33deg) scale(0.12, 0.12);
-    -ms-transform: rotate(33deg) scale(0.45, 0.45);
-    -o-transform: rotate(33deg) scale(0.45, 0.45);
+    -ms-transform: rotate(33deg) scale(0.12, 0.12);
+    -o-transform: rotate(33deg) scale(0.12, 0.12);
 }
 
 #china .star-sub4 {
     top: 50px;
     left: 25px;
-    -moz-transform: rotate(35deg) scale(0.45, 0.45);
+    -moz-transform: rotate(35deg) scale(0.12, 0.12);
     -webkit-transform: rotate(55deg) scale(0.12, 0.12);
-    -ms-transform: rotate(35deg) scale(0.45, 0.45);
-    -o-transform: rotate(35deg) scale(0.45, 0.45);
+    -ms-transform: rotate(35deg) scale(0.12, 0.12);
+    -o-transform: rotate(35deg) scale(0.12, 0.12);
 }
