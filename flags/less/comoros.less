@@ -1,0 +1,101 @@
+#comoros {
+    position: relative;
+    background-image: -webkit-linear-gradient(#ffc61e 25%, #ffffff 25%, #ffffff 50%, #ce1126 50%, #ce1126 75%, #3a75c4 75%);
+    background-image: -o-linear-gradient(#ffc61e 25%, #ffffff 25%, #ffffff 50%, #ce1126 50%, #ce1126 75%, #3a75c4 75%);
+    background-image: -moz-linear-gradient(#ffc61e 25%, #ffffff 25%, #ffffff 50%, #ce1126 50%, #ce1126 75%, #3a75c4 75%);
+    background-image: linear-gradient(#ffc61e 25%, #ffffff 25%, #ffffff 50%, #ce1126 50%, #ce1126 75%, #3a75c4 75%);
+    width: 208px;
+    height: 125px;
+
+    .triangle {
+        top: 0px;
+        left: 0px;
+        width: 0;
+        height: 0;
+        border-top: 62.5px solid transparent;
+        border-bottom: 62.5px solid transparent;
+        border-left: 104px solid #3d8e33;
+    }
+
+    .moon {
+        top: 33px;
+        left: 7px;
+        width: 60px;
+        height: 58px;
+        background: #ffffff;
+        border-radius: 50%;
+
+        .moon-clip {
+            top: 0px;
+            left: 13px;
+            width: 55px;
+            height: 58px;
+            background: #3d8e33;
+            border-radius: 50%;
+        }
+
+        .star {
+            display: block;
+            left: -15px;
+            width: 0px;
+            height: 0px;
+            border-right: 50px solid transparent;
+            border-bottom: 35px solid #ffffff;
+            border-left: 50px solid transparent;
+            -moz-transform: rotate(35deg) scale(0.1, 0.1);
+            -webkit-transform: rotate(35deg) scale(0.1, 0.1);
+            -ms-transform: rotate(35deg) scale(0.1, 0.1);
+            -o-transform: rotate(35deg) scale(0.1, 0.1);
+        
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -22.5px;
+                left: -32.5px;
+                height: 0;
+                width: 0;
+                border-bottom: 40px solid #ffffff;
+                border-left: 15px solid transparent;
+                border-right: 15px solid transparent;
+                -webkit-transform: rotate(-35deg);
+                -moz-transform: rotate(-35deg);
+                -ms-transform: rotate(-35deg);
+                -o-transform: rotate(-35deg);
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 3px;
+                left: -52.5px;
+                width: 0px;
+                height: 0px;
+                border-right: 50px solid transparent;
+                border-bottom: 35px solid #ffffff;
+                border-left: 50px solid transparent;
+                -webkit-transform: rotate(-70deg);
+                -moz-transform: rotate(-70deg);
+                -ms-transform: rotate(-70deg);
+                -o-transform: rotate(-70deg);
+            }
+        }
+
+        .star1 {
+            top: -8px;
+        }
+
+        .star2 {
+            top: 5px;
+        }
+
+        .star3 {
+            top: 19px;
+        }
+
+        .star4 {
+            top: 32px;
+        }
+    }
+}

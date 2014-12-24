@@ -1,0 +1,59 @@
+#drc {
+    position: relative;
+    background-image: -webkit-linear-gradient(-30deg, #007fff 41%, #f7d618 41%, #f7d618 44%, #ce1021 44%, #ce1021 56%, #f7d618 56%, #f7d618 59%, #007fff 59%);
+    background-image: -o-linear-gradient(-30deg, #007fff 41%, #f7d618 41%, #f7d618 44%, #ce1021 44%, #ce1021 56%, #f7d618 56%, #f7d618 59%, #007fff 59%);
+    background-image: -moz-linear-gradient(-30deg, #007fff 41%, #f7d618 41%, #f7d618 44%, #ce1021 44%, #ce1021 56%, #f7d618 56%, #f7d618 59%, #007fff 59%);
+    background-image: linear-gradient(-30deg, #007fff 41%, #f7d618 41%, #f7d618 44%, #ce1021 44%, #ce1021 56%, #f7d618 56%, #f7d618 59%, #007fff 59%);
+    width: 200px;
+    height: 150px;
+
+    .star {
+        display: block;
+        position: absolute;
+        top: 21px;
+        left: -12px;
+        width: 0px;
+        height: 0px;
+        border-right: 50px solid transparent;
+        border-bottom: 35px solid #f7d618;
+        border-left: 50px solid transparent;
+        -moz-transform: rotate(35deg) scale(0.53, 0.53);
+        -webkit-transform: rotate(35deg) scale(0.53, 0.53);
+        -ms-transform: rotate(35deg) scale(0.53, 0.53);
+        -o-transform: rotate(35deg) scale(0.53, 0.53);
+    
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -22.5px;
+            left: -32.5px;
+            height: 0;
+            width: 0;
+            border-bottom: 40px solid #f7d618;
+            border-left: 15px solid transparent;
+            border-right: 15px solid transparent;
+            -webkit-transform: rotate(-35deg);
+            -moz-transform: rotate(-35deg);
+            -ms-transform: rotate(-35deg);
+            -o-transform: rotate(-35deg);
+        }
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 3px;
+            left: -52.5px;
+            width: 0px;
+            height: 0px;
+            border-right: 50px solid transparent;
+            border-bottom: 35px solid #f7d618;
+            border-left: 50px solid transparent;
+            -webkit-transform: rotate(-70deg);
+            -moz-transform: rotate(-70deg);
+            -ms-transform: rotate(-70deg);
+            -o-transform: rotate(-70deg);
+        }
+    }
+}

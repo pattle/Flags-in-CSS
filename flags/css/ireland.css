@@ -1,9 +1,1 @@
-#ireland
-{
-    background-image: -webkit-linear-gradient(90deg, #009A49 33%, #ffffff 33%, #ffffff 66%, #FF7900 66%);
-    background-image: -o-linear-gradient(90deg, #009A49 33%, #ffffff 33%, #ffffff 66%, #FF7900 66%);
-    background-image: -moz-linear-gradient(90deg, #009A49 33%, #ffffff 33%, #ffffff 66%, #FF7900 66%);
-    background-image: linear-gradient(90deg, #009A49 33%, #ffffff 33%, #ffffff 66%, #FF7900 66%);
-    width: 250px;
-    height: 125px;
-}
+#ireland{background-image:-webkit-linear-gradient(90deg,#009a49 33%,#fff 33%,#fff 66%,#ff7900 66%);background-image:-o-linear-gradient(90deg,#009a49 33%,#fff 33%,#fff 66%,#ff7900 66%);background-image:-moz-linear-gradient(90deg,#009a49 33%,#fff 33%,#fff 66%,#ff7900 66%);background-image:linear-gradient(90deg,#009a49 33%,#fff 33%,#fff 66%,#ff7900 66%);width:250px;height:125px}

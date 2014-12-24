@@ -1,8 +1,1 @@
-#estonia {
-    background-image: -webkit-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
-    background-image: -o-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
-    background-image: -moz-linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
-    background-image: linear-gradient(#4891d9 33%, #000000 33%, #000000 66%, #ffffff 66%);
-    width: 236px;
-    height: 150px;
-}
+#estonia{background-image:-webkit-linear-gradient(#4891d9 33%,#000 33%,#000 66%,#fff 66%);background-image:-o-linear-gradient(#4891d9 33%,#000 33%,#000 66%,#fff 66%);background-image:-moz-linear-gradient(#4891d9 33%,#000 33%,#000 66%,#fff 66%);background-image:linear-gradient(#4891d9 33%,#000 33%,#000 66%,#fff 66%);width:236px;height:150px}

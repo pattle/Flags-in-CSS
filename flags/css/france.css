@@ -1,9 +1,1 @@
-#france
-{
-    background-image: -webkit-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
-    background-image: -o-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
-    background-image: -moz-linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
-    background-image: linear-gradient(90deg, #0055A4 33%, #ffffff 33%, #ffffff 66%, #EF4135 66%);
-    width: 225px;
-    height: 150px;
-}
+#france{background-image:-webkit-linear-gradient(90deg,#0055a4 33%,#fff 33%,#fff 66%,#ef4135 66%);background-image:-o-linear-gradient(90deg,#0055a4 33%,#fff 33%,#fff 66%,#ef4135 66%);background-image:-moz-linear-gradient(90deg,#0055a4 33%,#fff 33%,#fff 66%,#ef4135 66%);background-image:linear-gradient(90deg,#0055a4 33%,#fff 33%,#fff 66%,#ef4135 66%);width:225px;height:150px}

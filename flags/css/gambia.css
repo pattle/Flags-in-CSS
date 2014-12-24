@@ -1,9 +1,1 @@
-#gambia
-{
-    background-image: -webkit-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
-    background-image: -o-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
-    background-image: -moz-linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
-    background-image: linear-gradient(#ce1126 33%, #ffffff 33%, #ffffff 38%, #0c1c8c 38%, #0c1c8c 62%, #ffffff 62%, #ffffff 67%, #3a7728 67%);
-    width: 200px;
-    height: 133px;
-}
+#gambia{background-image:-webkit-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);background-image:-o-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);background-image:-moz-linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);background-image:linear-gradient(#ce1126 33%,#fff 33%,#fff 38%,#0c1c8c 38%,#0c1c8c 62%,#fff 62%,#fff 67%,#3a7728 67%);width:200px;height:133px}
