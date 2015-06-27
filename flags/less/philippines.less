@@ -1,5 +1,11 @@
+@import "mixins.less";
+
+@flag-width: 300px;
+@flag-height: 150px;
+
 #philippines {
-    width: 300px; height: 150px;
+    width: @flag-width; 
+    height: @flag-height;
     position: relative;
     background-image: -webkit-linear-gradient(#0038A8 50%, #CE1126 50%);
     background-image: -o-linear-gradient(#0038A8 50%, #CE1126 50%);
@@ -9,7 +15,6 @@
 		border-top: 75px solid transparent;
 		border-bottom: 75px solid transparent;
 		border-left: 130px solid white;
-        background-color: transparent;
 	}
     
     .star {
@@ -24,34 +29,29 @@
         &.first {
             top: 4px;
             left: 2px;
-            -webkit-transform: rotate(-30deg);
-            -ms-transform: rotate(-30deg);
-            transform: rotate(-30deg);
+            .rotate(-30deg);
         }
         &.second {
             bottom: 8px;
             left: 2px;
-            -webkit-transform: rotate(-7.5deg);
-            -ms-transform: rotate(-7.5deg);
-            transform: rotate(-7.5deg);
+            .rotate(-7.5deg);
         }
         &.third {
             top: 60px;
             left: 97px;
-            -webkit-transform: rotate(17.5deg);
-            -ms-transform: rotate(17.5deg);
-            transform: rotate(17.5deg);
+            .rotate(17.5deg);
         }    
     }  
 
     .sun {
+        @diameter: 34px;
         background: #FCD116;
         position: absolute;
-        height: 34px;
-        width: 34px;
+        height: @diameter;
+        width: @diameter;
         left: 30px;
         top: 58px;
-        border-radius: 17px;
+        border-radius: @diameter/2;
     
         .ray:nth-child(1) {
             top: -24px;
@@ -61,57 +61,43 @@
         .ray:nth-child(2) { 
             left: -13px;
             top: -13px;
-            -webkit-transform: rotate(-45deg);
-            -ms-transform: rotate(-45deg);
-            transform: rotate(-45deg);
+            .rotate(-45deg);
         }
         
         .ray:nth-child(3) { 
             left: 34px;
             top: -13px;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+            .rotate(45deg);
         }
         
         .ray:nth-child(4) { 
             left: -23px;
             top: 10px;
-            -webkit-transform: rotate(-90deg);
-            -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+            .rotate(-90deg);
         }
         
         .ray:nth-child(5) { 
             left: 44px;
             top: 10px;
-            -webkit-transform: rotate(90deg);
-            -ms-transform: rotate(90deg);
-            transform: rotate(90deg);
+            .rotate(90deg);
         }
         
         .ray:nth-child(6) { 
             left: -13px;
             top: 34px;
-            -webkit-transform: rotate(-135deg);
-            -ms-transform: rotate(-135deg);
-            transform: rotate(-135deg);
+            .rotate(-135deg);
         }
         
         .ray:nth-child(7) { 
             top: 44px;
             left: 10px;
-            -webkit-transform: rotate(180deg);
-            -ms-transform: rotate(180deg);
-            transform: rotate(180deg);
+            .rotate(180deg);
         }
         
         .ray:nth-child(8) { 
             left: 34px;
             top: 34px;
-            -webkit-transform: rotate(135deg);
-            -ms-transform: rotate(135deg);
-            transform: rotate(135deg);
+            .rotate(135deg);
         }
 
         .ray {
@@ -135,16 +121,12 @@
                 
             &:before {
                 left: -2px;
-                -webkit-transform: rotate(10deg);
-                -ms-transform: rotate(10deg);
-                transform: rotate(10deg);
+                .rotate(10deg);
             }
     
             &:after {
                 left: -5px;
-                -webkit-transform: rotate(-10deg);
-                -ms-transform: rotate(-10deg);
-                transform: rotate(-10deg);
+                .rotate(-10deg);
             }
         
             > i,
@@ -159,18 +141,14 @@
     
             > i {
                 left: -4px;
-                -webkit-transform: rotate(-8deg);
-                -ms-transform: rotate(-8deg);
-                transform: rotate(-8deg);
+                .rotate(-8deg);
                 z-index: 1;
             }
         
             > i:before {
                 content: '';
                 left: 6px;
-                -webkit-transform: rotate(15deg);
-                -ms-transform: rotate(15deg);
-                transform: rotate(15deg);
+                .rotate(15deg);
                 z-index: 1;
             }
         }
