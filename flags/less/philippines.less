@@ -1,0 +1,156 @@
+@import "mixins.less";
+
+@flag-width: 300px;
+@flag-height: 150px;
+
+#philippines {
+    width: @flag-width; 
+    height: @flag-height;
+    position: relative;
+    background-image: -webkit-linear-gradient(#0038A8 50%, #CE1126 50%);
+    background-image: -o-linear-gradient(#0038A8 50%, #CE1126 50%);
+    background-image: linear-gradient(#0038A8 50%, #CE1126 50%);
+    
+    .triangle {
+		border-top: 75px solid transparent;
+		border-bottom: 75px solid transparent;
+		border-left: 130px solid white;
+	}
+    
+    .star {
+        color: #FCD116;
+        font-size: 20px;
+        position: absolute;
+        
+        &:before {
+            content: '★';
+        }
+    
+        &.first {
+            top: 4px;
+            left: 2px;
+            .rotate(-30deg);
+        }
+        &.second {
+            bottom: 8px;
+            left: 2px;
+            .rotate(-7.5deg);
+        }
+        &.third {
+            top: 60px;
+            left: 97px;
+            .rotate(17.5deg);
+        }    
+    }  
+
+    .sun {
+        @diameter: 34px;
+        background: #FCD116;
+        position: absolute;
+        height: @diameter;
+        width: @diameter;
+        left: 30px;
+        top: 58px;
+        border-radius: @diameter/2;
+    
+        .ray:nth-child(1) {
+            top: -24px;
+            left: 10px;
+        }
+        
+        .ray:nth-child(2) { 
+            left: -13px;
+            top: -13px;
+            .rotate(-45deg);
+        }
+        
+        .ray:nth-child(3) { 
+            left: 34px;
+            top: -13px;
+            .rotate(45deg);
+        }
+        
+        .ray:nth-child(4) { 
+            left: -23px;
+            top: 10px;
+            .rotate(-90deg);
+        }
+        
+        .ray:nth-child(5) { 
+            left: 44px;
+            top: 10px;
+            .rotate(90deg);
+        }
+        
+        .ray:nth-child(6) { 
+            left: -13px;
+            top: 34px;
+            .rotate(-135deg);
+        }
+        
+        .ray:nth-child(7) { 
+            top: 44px;
+            left: 10px;
+            .rotate(180deg);
+        }
+        
+        .ray:nth-child(8) { 
+            left: 34px;
+            top: 34px;
+            .rotate(135deg);
+        }
+
+        .ray {
+            height: 0;
+            width: 0;
+            border-width: 6px;
+            border-style: solid;
+            border-color: transparent transparent #FCD116 transparent;
+            position: absolute;
+            
+            &:before,
+            &:after {
+                content: '';
+                background-color: #FCD116;
+                position: absolute;
+                display: block;
+                width: 7px;
+                height: 13px;
+                top: 5px;
+            }
+                
+            &:before {
+                left: -2px;
+                .rotate(10deg);
+            }
+    
+            &:after {
+                left: -5px;
+                .rotate(-10deg);
+            }
+        
+            > i,
+            > i:before {
+                position: absolute;
+                display: block;
+                width: 2px;
+                height: 17px;
+                top: 0;
+                background: white;
+            }
+    
+            > i {
+                left: -4px;
+                .rotate(-8deg);
+                z-index: 1;
+            }
+        
+            > i:before {
+                content: '';
+                left: 6px;
+                .rotate(15deg);
+                z-index: 1;
+            }
+        }
+    }
+}
