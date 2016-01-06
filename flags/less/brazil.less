@@ -1,0 +1,96 @@
+@color-white: #fff;
+@color-flag: #16b83e;
+@color-losangue: #ffe11f;
+@color-circle: #1651b8;
+
+#brazil {
+    position: relative;
+    background-color: @color-flag;
+    width: 250px;
+    height: 150px;
+
+    .circle,
+    .losangue:before,
+    .losangue:after {
+        position: absolute;
+    }
+
+    .losangue {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        &:before,
+        &:after {
+            content: '';
+            width: 0;
+            height: 0;
+            left: 20px;
+            right: 20px;
+        }
+
+        &:before {
+            border-left: 105px solid transparent;
+            border-right: 105px solid transparent;
+            border-bottom: 65px solid @color-losangue;
+            top: 10px;
+        }
+
+        &:after {
+            border-left: 105px solid transparent;
+            border-right: 105px solid transparent;
+            border-top: 65px solid @color-losangue;
+            bottom: 10px;
+        }
+    }
+
+    .circle {
+        overflow: hidden;
+        z-index: 2;
+        display: block;
+        background-color: @color-circle;
+        height: 80px;
+        width: 80px;
+        margin-top: -40px;
+        margin-left: -40px;
+
+        &,
+        &:before,
+        &:after {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+        }
+
+        &:before,
+        &:after {
+            width: 90px;
+            height: 40px;
+            -ms-transform: rotate(14deg);
+            -webkit-transform: rotate(14deg);
+            transform: rotate(14deg);
+        }
+
+        &:before {
+            z-index: 3;
+            content: '';
+            margin-top: -20px;
+            margin-left: -45px;
+            background: @color-white;
+        }
+
+        &:after {
+            z-index: 4;
+            content: '';
+            margin-top: -10px;
+            margin-left: -48px;
+            background-color: @color-circle;
+        }
+    }
+}
